@@ -3,8 +3,11 @@
 					   xmlns:s="library://ns.adobe.com/flex/spark" 
 					   xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:local="local.*"
 					   title="TITLE">
+	<!-- コメント追加 -->
 	<local:MyButton1 bottom="5" left="5" width="40%" label="{myText.text}"/>
 	<local:MyButton1 bottom="5" right="5" width="40%" label="{rtEditor.text}"/>
+	<!-- コメント追加 -->
 	<mx:TextInput id="myText" left="5" right="5" top="5"/>
 	<mx:RichTextEditor id="rtEditor" left="0" right="0" top="25" bottom="30"/>
+	<!-- コメント追加 -->
 </s:WindowedApplication>
